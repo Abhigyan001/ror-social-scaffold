@@ -10,7 +10,7 @@ Rails.application.routes.draw do
     resources :likes, only: [:create, :destroy]
   end
   resources :friendships, only: [:create]
-  resources :accept_invitation, only: [:create, :index, :destroy]
+  resources :invitations, only: [:create, :index, :destroy]
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
