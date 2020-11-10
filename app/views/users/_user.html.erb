@@ -1,7 +1,11 @@
-<li>
-  Name: <%= user.name %>
-  <span class="profile-link">
-    <%= link_to 'See Profile',  user_path(user), class: 'profile-link' %>
-  </span>
-  <%= render partial: 'send_friend_request', :locals => {:user => user} %>
+<li class="user_accept_reject">
+  <div>
+      Name: <%= user.name %>
+      <span class="profile-link">
+          <%= link_to 'See Profile',  user_path(user), class: 'profile-link' %>
+      </span>
+  </div>
+  <div>
+    <%= render partial: 'send_friend_request', :locals => {:user => user} %>
+  </div>
 </li>
