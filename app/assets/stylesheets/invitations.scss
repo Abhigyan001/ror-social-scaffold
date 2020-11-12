@@ -3,11 +3,11 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .user_accept_reject {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-    input[type="submit"] {
-        width: max-content;
-    }
+  input[type="submit"] {
+    width: max-content;
+  }
 }
