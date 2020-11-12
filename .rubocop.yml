@@ -6,12 +6,11 @@ AllCops:
     - "Guardfile"
     - "Rakefile"
     - "node_modules/**/*"
-    - "Gemfile"
-    - "tmp/**/*" 
+
   DisplayCopNames: true
 
 Layout/LineLength:
-  Enabled: false
+  Max: 120
 Metrics/MethodLength:
   Include:
     - "app/controllers/*"
@@ -43,8 +42,6 @@ Style/FrozenStringLiteralComment:
 
 Layout/HashAlignment:
   EnforcedColonStyle: key
-Layout/EndOfLine:
-  Enabled: false
 Layout/ExtraSpacing:
   AllowForAlignment: false
 Layout/MultilineMethodCallIndentation:
