@@ -3,7 +3,7 @@ In this project we practiced building associations between models. We have pract
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://friendapp2020.herokuapp.com/users/sign_in)
 
 ## Build-With
 
