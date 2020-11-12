@@ -1,0 +1,15 @@
+<li class="user_accept_reject"> 
+    <span><%= user.name %></span> 
+    <div>
+        <%= form_with(:url => invitations_path ) do |f| %>
+            <%= f.hidden_field :user_id, value: user.id %>
+            <%= f.submit "Accept Request" %>
+        <% end %>
+    </div>
+    <div>
+        <%= form_with(:url => invitation_path(user), :method => :delete ) do |f| %>
+            <%= f.hidden_field :user_id, value: user.id %>
+            <%= f.submit "Decline Request" %>
+        <% end %>
+    </div>
+</li>

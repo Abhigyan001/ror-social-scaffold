@@ -1,0 +1,13 @@
+// Place all the styles related to the invitations controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.user_accept_reject {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  input[type="submit"] {
+    width: max-content;
+  }
+}
