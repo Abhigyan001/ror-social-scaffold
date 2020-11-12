@@ -8,8 +8,8 @@ class InvitationsController < ApplicationController
   def create
     @friend_request = Friendship.where(user_id: params[:user_id], friend_id: current_user.id).first
     if @friend_request
-      @friend_request.confirmed = true
-      @friend_request.save
+      current_user.confirm_friend(@friend_request.user)
+      Friendship.create(user_id: current_user.id, friend_id: params[:user_id], confirmed: true)
       redirect_to invitations_path, notice: 'Request Approved.'
     else
       redirect_to invitations_path, notice: 'Request denied.'
