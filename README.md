@@ -1,93 +1,57 @@
-# Scaffold for social media app with Ruby on Rails
-
-> This repo includes intial code for social media app with basic styling. Its purpose is to be a starting point for Microverse students.
-
-## Built With
-
-- Ruby v2.7.0
-- Ruby on Rails v5.2.4
+# Project :  social media
+In this project we practiced building associations between models. We have practiced active record queries as well as deployed the project on heroku.
 
 ## Live Demo
 
-TBA
+[Live Demo Link]()
 
+## Build-With
+
+- Ruby -v 2.6.6
+- Rails -v 5.2.4.4
+- Postgresql
+- VScode
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
-
 ### Prerequisites
 
-Ruby: 2.6.3
-Rails: 5.2.3
-Postgres: >=9.5
+To get this project up and running locally, you must already have ruby and necessary gems installed on your computer
 
-### Setup
+**To get this project set up on your local machine, follow these simple steps:**
 
-Instal gems with:
-
-```
-bundle install
-```
-
-Setup database with:
-
-```
-   rails db:create
-   rails db:migrate
-```
-
-### Github Actions
-
-To make sure the linters' checks using Github Actions work properly, you should follow the next steps:
-
-1. On your recently forked repo, enable the GitHub Actions in the Actions tab.
-2. Create the `feature/branch` and push.
-3. Start working on your milestone as usual.
-4. Open a PR from the `feature/branch` when your work is done.
+1. Open Terminal.
+2. Navigate to your desired location to download the contents of this repository.
+3. Copy and paste the following code into the Terminal: git clone https://github.com/Abhigyan001/ror-social-scaffold
+4. Run ```cd ror-social-scaffold```.
+5. Run ```bundle install``` to get the necesary gems.
+6. Run `rails db:create`.
+6. Run `rails db:migrate`.
+7. Run `rails server`
 
 
-### Usage
+## Author Details::
 
-Start server with:
+👤 ABHIGYAN Mahanta
 
-```
-    rails server
-```
+- Github: [@Abhigyan001](https://github.com/Abhigyan001)
+- Twitter: [@abhigyan_001](https://twitter.com/abhigyan_001)
+- LinkedIn: [Abhigyan](https://www.linkedin.com/in/abhigyan-mahanta-b49799145/)
 
-Open `http://localhost:3000/` in your browser.
+👤 **Bello Babakolo**
 
-### Run tests
+- Github: [@belsman](https://github.com/belsman)
+- Twitter: [@d_belsman](https://twitter.com/d_belsman)
+- Linkdin: [Bello Babakolo](https://www.linkedin.com/in/bello-babakolo-b23b17145/)
 
-```
-    rpsec --format documentation
-```
-
-> Tests will be added by Microverse students. There are no tests for initial features in order to make sure that students write all tests from scratch.
-
-### Deployment
-
-TBA
-
-## Authors
-
-TBA
-
-## 🤝 Contributing
-
-Contributions, issues and feature requests are welcome!
-
-Feel free to check the [issues page](issues/).
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-TBA
+Give ⭐ Star me on GitHub — it helps!
 
 ## 📝 License
 
-TBA
+This project is [MIT](lic.url) licensed.   
+
+
 
