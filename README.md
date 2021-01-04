@@ -1,6 +1,8 @@
 # Project :  Social Media
 This is a website where users can send and receive friend requests from other users. Users can see the posts created by their friends on their timeline, and they can like and comment on them. Users can also create posts and comment on them.
 
+![screenshot](./img/ss3.PNG)
+
 ## Live Demo
 
 [Live Demo Link](https://socialmediaapp2020.herokuapp.com/)
